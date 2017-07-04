@@ -75,7 +75,7 @@ export ANT_HOME
 MVN_HOME=/Users/wangqianfront/develop/apache-maven-3.3.9
 export MVN_HOME
 
-export PATH="/usr/local/bin:/usr/local/Cellar/mongodb/3.4.0/bin:/usr/local/Cellar/rabbitmq/3.6.6/sbin:/usr/bin:/bin:/usr/sbin:/sbin:${ANT_HOME}/bin:${MVN_HOME}/bin:/usr/local/activator-1.3.12-minimal/bin:/usr/local/Cellar/openldap/2.4.44/bin"
+export PATH="/usr/local/bin:/usr/local/Cellar/mongodb/3.4.0/bin:/usr/local/Cellar/rabbitmq/3.6.6/sbin:/usr/bin:/bin:/usr/sbin:/sbin:${ANT_HOME}/bin:${MVN_HOME}/bin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
