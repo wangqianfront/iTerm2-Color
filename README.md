@@ -1,13 +1,31 @@
-# my-zsh-iTerm2
+## Getting Started
 
-#### 1. on-my-zsh
+### Prerequisites
 
-<pre>
-$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-</pre>
+__Disclaimer:__ _Oh My Zsh works best on macOS and Linux._
 
+* Unix-based operating system (macOS or Linux)
+* [Zsh](http://www.zsh.org) should be installed (v4.3.9 or more recent). If not pre-installed (`zsh --version` to confirm), check the following instruction here: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+* `curl` or `wget` should be installed
+* `git` should be installed
 
-#### 2. ZModem integration for iTerm
+### 1. on-my-zsh
+
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl` or `wget`.
+
+#### via curl
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+#### via wget
+
+```shell
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```
+
+### 2. ZModem integration for iTerm
 
 Setup
 -----
@@ -41,13 +59,13 @@ The receive a file from a remote machine
 3. Wait for the coprocess indicator to disappear
 
 
-#### 3.Honukai theme and colors for Oh My ZSH and iTerm 
+### 3.Honukai theme and colors for Oh My ZSH and iTerm 
 
 ![](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm/master/honukai.png)
 
 [See how it looks with blur and transparency](https://v.usetapes.com/SDGzCBkHh4) (video).
 
-## Installation
+#### Installation
 
 ### Theme
 
