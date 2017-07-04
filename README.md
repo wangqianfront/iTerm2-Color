@@ -1,4 +1,13 @@
-## ZModem integration for iTerm 2
+# my-zsh-iTerm2
+
+#### 1. on-my-zsh
+
+<pre>
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+</pre>
+
+
+#### 2. ZModem integration for iTerm
 
 Setup
 -----
@@ -32,7 +41,7 @@ The receive a file from a remote machine
 3. Wait for the coprocess indicator to disappear
 
 
-## Honukai theme and colors for Oh My ZSH and iTerm 
+#### 3.Honukai theme and colors for Oh My ZSH and iTerm 
 
 ![](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm/master/honukai.png)
 
